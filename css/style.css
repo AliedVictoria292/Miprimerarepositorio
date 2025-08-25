@@ -1,0 +1,101 @@
+/* Estilo base para todos los divs */
+div {
+    position: absolute; /* Permite posicionar el div en coordenadas específicas */
+    border: 1px solid #41729c; /* Define un borde sólido de 1px con un color específico */
+}
+
+/* Estilos para el bloque1 */
+div.bloque1 {
+    background-color: #ebf0f9; /* Color de fondo del bloque 1 */
+    width: 353px; /* Ancho del bloque 1 */
+    height: 113px; /* Alto del bloque 1 */
+    top: 100px; /* Distancia desde la parte superior de la ventana */
+    left: 56px; /* Distancia desde el lado izquierdo de la ventana */
+    z-index: 800; /* Apila el bloque 1 sobre otros elementos (nivel de apilamiento alto) */
+}
+
+div.bloque2 {
+    background-color: #c5e0b4;
+    width: 297px;
+    height: 387px;
+    top: 100px;
+    left: 81px;
+    z-index: 40;
+}
+div.bloque3 {
+    background-color: #ffe699;
+    width: 397px;
+    height: 116px;
+    top: 374px;
+    left: 20px;
+    z-index: 20;
+}
+div.bloque2 div.hijo1 {
+    background-color: #5b9ad5;
+    width: 266px;
+    height: 98px;
+    top: 120px;
+    left: 15px;
+    z-index: 90;
+}
+
+div.bloque2 div.hijo2 {
+    background-color: #d0cece;
+    width: 143px;
+    height: 296px;
+    top: 33px;
+    left: 126px;
+    z-index: 100;
+}
+div.bloque2 div.hijo3 {
+    background-color: #ffb9b9;
+    width: 176px;
+    height: 99px;
+    top: 278px;
+    left: 105px;
+    z-index: 10;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+p {
+    background-color: #da6868;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+b {
+    font-weight: bold;
+    color: #d9534f; /* Color rojo para el enemigo */
+}
+
+.prueba {
+    color: #5bc0de; /* Color azul claro para la clase 'prueba' */
+    font-style: italic;
+}
+
+#prueba2 {
+    color: #5cb85c; /* Color verde para el ID 'prueba2' */
+    font-weight: bold;
+}
+
+.h3 {
+    color: #f0ad4e; /* Color amarillo para la clase 'h3' */
+    font-size: 1.2em;
+}
